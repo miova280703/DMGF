@@ -18,7 +18,7 @@ function App() {
       <main style={{ flex: 1 }}>
         <Router>
           <Routes>
-            <Route path="/" element={<MediaControlCard />} />
+            <Route path="/DMGF/" element={<MediaControlCard />} />
             <Route path="/propuesta" element={<ContenidoPropuesta />} />
           </Routes>
         </Router>
