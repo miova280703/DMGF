@@ -5,21 +5,27 @@ import TextMobileStepper from './components/cuestionario';
 import ContenidoPropuesta from './components/contenido';
 import DenseAppBar from './components/header';
 import FooterBar from './components/footer';
+import MediaControlCard from './components/reproductor';
 
 function App() {
   return (
     <div className="App">
-      <DenseAppBar />
+      <header>
+        <h1>¡Feliz 14 de febrero, amor!</h1>
+        <p>Te amo mucho y quería hacer esta página especial para ti.</p>
+      </header>
 
-      <header className="App-header">
+      <main style={{ flex: 1 }}>
         <Router>
           <Routes>
-            <Route path="/" element={<TextMobileStepper />} />
+            <Route path="/" element={<MediaControlCard />} />
             <Route path="/propuesta" element={<ContenidoPropuesta />} />
           </Routes>
         </Router>
-      </header>
-      <FooterBar />
+      </main>
+      <footer>
+        <p>© 2024 Tu nombre. Todos los derechos reservados.</p>
+      </footer>
     </div>
   );
 }
