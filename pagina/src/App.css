@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #AED9E0;
+  background-color: #F7F2E7;
   min-height: 100vh;
 }
 
@@ -10,13 +10,13 @@
 }
 
 header {
-  background-color: #F7F2E7;
-  padding: 20px;
+  background-color: #AED9E0;
+  padding: 10px;
 }
 
 footer {
-  background-color: #F7F2E7;
-  padding: 10px;
+  background-color: #AED9E0;
+  padding: 5px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -24,7 +24,7 @@ footer {
 
 main {
   padding: 20px;
-  background-color: #AED9E0;
+  background-color: #F7F2E7;
 }
 
 @media only screen and (max-width: 600px) {

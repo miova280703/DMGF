@@ -11,8 +11,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>¡Feliz 14 de febrero, amor!</h1>
-        <p>Te amo mucho y quería hacer esta página especial para ti.</p>
+        <p>Insertar opciones</p>
       </header>
 
       <main style={{ flex: 1 }}>
@@ -24,7 +23,7 @@ function App() {
         </Router>
       </main>
       <footer>
-        <p>© 2024 Tu nombre. Todos los derechos reservados.</p>
+        <p>© 2024 CIMA. Todos los derechos reservados.</p>
       </footer>
     </div>
   );
