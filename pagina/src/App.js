@@ -1,31 +1,46 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TextMobileStepper from './components/cuestionario';
 import ContenidoPropuesta from './components/contenido';
 import DenseAppBar from './components/header';
 import FooterBar from './components/footer';
-import MediaControlCard from './components/reproductor';
+import Reproductor from './components/reproductordescriptivo';
+import ArticuloDeRevista from './components/bienvenida';
+import AgregarCancion from './components/agregarcancion';
+import Tatuajes from './components/tatuajes';
+// import AgregarTatuaje from './components/agregartatuaje';
+import Notas from './components/notas';
+import AgregarNota from './components/agregarnota';
+import Jorge from './components/jorge';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <p>Insertar opciones</p>
-      </header>
+    <BrowserRouter>
+      <div className="App" style={{ position: 'relative' }}>
+        {/* <header>
+          <p>Insertar opciones</p>
+        </header> */}
 
-      <main style={{ flex: 1 }}>
-        <Router>
+        <DenseAppBar />
+
+        <main style={{ flex: 1 }}>
           <Routes>
-            <Route path="/DMGF/" element={<MediaControlCard />} />
-            <Route path="/propuesta" element={<ContenidoPropuesta />} />
+            <Route path="/DMGF/" element={<ArticuloDeRevista exact />} />
+            <Route path="/DMGF/reproductor" element={<Reproductor exact />} />
+            <Route path="/DMGF/reproductor/agregar" element={<AgregarCancion exact />} />
+            <Route path="/DMGF/tatuaje" element={<Tatuajes exact />} />
+            {/* <Route path="/DMGF/tatuaje/agregar" element={<AgregarTatuaje exact />} /> */}
+            <Route path="/DMGF/notas" element={<Notas exact />} />
+            <Route path="/DMGF/notas/agregar" element={<AgregarNota exact />} />
+            <Route path="/DMGF/jorge" element={<Jorge exact />} />
           </Routes>
-        </Router>
-      </main>
-      <footer>
-        <p>© 2024 CIMA. Todos los derechos reservados.</p>
-      </footer>
-    </div>
+        </main>
+        <footer>
+          <p></p>
+        </footer>
+      </div>
+    </BrowserRouter>
   );
 }
 

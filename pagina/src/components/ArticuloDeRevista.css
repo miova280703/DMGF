@@ -1,0 +1,68 @@
+.articulo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #e91e63;
+}
+
+.contenido {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.imagenes img {
+  width: 200px;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.firma {
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  font-style: italic;
+  text-align: right;
+}
+
+
+.notas-con-vinetas {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nota {
+  margin-bottom: 15px;
+  list-style: none;
+  display: flex;
+}
+
+.bullet {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ff7f50; /* Color naranja */
+}
+
+.nota p {
+  margin: 0;
+  padding: 5px;
+  background-color: #f0f0f0; /* Color de fondo gris */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}

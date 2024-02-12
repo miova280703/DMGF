@@ -10,21 +10,21 @@ import {
   } from "firebase/firestore";
   import { db } from "./config";
   
-  const collectionName = "dbdmgfnotes";
+  const collectionName = "dbdmgfsongs";
   
-  export const saveNote = (newLink) =>
+  export const saveSong = (newLink) =>
     addDoc(collection(db, collectionName), newLink);
   
-  export const updateNote = (id, updatedFields) =>
+  export const updateSong = (id, updatedFields) =>
     updateDoc(doc(db, collectionName, id), updatedFields);
   
-  export const onGetNote = (callback) => {
+  export const onGetSongs = (callback) => {
     const unsub = onSnapshot(collection(db, collectionName), callback);
     return unsub;
   };
   
-  export const getNotes = () => getDocs(collection(db, collectionName));
+  export const getSongs = () => getDocs(collection(db, collectionName));
   
-  export const deleteNote = (id) => deleteDoc(doc(db, collectionName, id));
+  export const deleteSong = (id) => deleteDoc(doc(db, collectionName, id));
   
-  export const getNote = (id) => getDoc(doc(db, collectionName, id));
+  export const getSong = (id) => getDoc(doc(db, collectionName, id));
