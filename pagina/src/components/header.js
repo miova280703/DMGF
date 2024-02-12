@@ -42,7 +42,7 @@ export default function DenseAppBar() {
             }}
           >
             <MenuItem onClick={handleCloseMenu} sx={{ color: '#1A5276' }} component={NavLink} to="/DMGF/">Inicio</MenuItem>
-            <MenuItem onClick={handleCloseMenu} sx={{ color: '#1A5276' }} component={NavLink} to="/DMGF/tatuaje">Tatuajes con tinta invisible</MenuItem>
+            <MenuItem onClick={handleCloseMenu} sx={{ color: '#1A5276' }} component={NavLink} to="/DMGF/tatuaje">Tatuajes sin tinta</MenuItem>
             <MenuItem onClick={handleCloseMenu} sx={{ color: '#1A5276' }} component={NavLink} to="/DMGF/reproductor">Recuerdos con canciones</MenuItem>
             <MenuItem onClick={handleCloseMenu} sx={{ color: '#1A5276' }} component={NavLink} to="/DMGF/notas">Notitas de amorts</MenuItem>
             <MenuItem onClick={handleCloseMenu} sx={{ color: '#1A5276' }} component={NavLink} to="/DMGF/jorge">¿Le ponesmos Jorge al niño?</MenuItem>
