@@ -193,8 +193,9 @@ export default function Reproductor() {
                 <p>
                     La música es parte de nosotras y de nuestra relación, nos hemos compartido muchas canciones 🙊 canciones que nos gustan, que nos pensar en la otra,
                     que expresan lo que sentimos y creo que no debemos de dejar morir ese momento al escuchar una canción que nos
-                    recuerde a la otra y el motivo por el cual nos la mandamos. Así qu esta sección es para eso, para recordar con canciones.
+                    recuerde a la otra y el motivo por el cual nos la mandamos. Así que esta sección es para eso, para recordar con canciones.
                     Escogí las que yo creo que son las más significativas, pero tu puedes agregar más.
+                    Por cierto, si querés escuchar alguna canción, solo dale click al botón de play 🙊.
                 </p>
                 <Button variant="outlined"
                     sx={{ color: '#1A5276' }}

@@ -123,8 +123,14 @@ const Tatuajes = () => {
             <h1 className="titulo">Tatuajes sin tinta 💉</h1>
             <div className="contenido">
                 <p>
-                    Eres la persona con la que quiero seguir viviendo y haciendo cosas "Por Primera Vez". Ya he hecho algunas, así que las listaré para que no se nos olviden.
-                    Pero también creo que vos también vives cosas por primera vez conmigo, así que también me gustaría que las listarás cuando pasen para tenerlas presente.
+                    Sos la persona con la que quiero seguir haciendo cosas "Por Primera Vez", cuando las he hecho me ha gustado y he sentido lindo hacerlas contigo, porque sos tú y 
+                    tú eres especial y mereces este lado tierno y adorable que despiertas en mi.
+                    En lo que estaba programando esta sección me puse a pensar que tú ya viviste e hiciste cosas por primera vez con otras personas y que lindo porque me imagino que han
+                    sido momentos muy espciales. Pero también analice que cada vez que las haces 
+                    con una nueva persona es como si fuera la primera vez, porque todo es distinto, la persona, el momento, el lugar, lo que sientes... todo es distinto que al final hace que sea la
+                    primera vez. 
+                    Siento que tú conmigo también estas haciendo y viviendo cosas por primera vez, que llegue a la conclusión que sería lindo que ambas las listaramos así las dos somos 
+                    conscientes y felices 🙊 de esas primeras veces.
                 </p>
             </div>
             <Box sx={{ width: '100%', color: '#1A5276' }}>
